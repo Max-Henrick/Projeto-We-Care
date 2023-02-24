@@ -1,0 +1,137 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    height: 50%;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+    margin-top: 0;
+}
+
+header {
+    margin: 44px 0px 144px 76px;
+}
+section{
+    display: inline-block;
+    margin-left: 86px;    
+}
+
+.link-header {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.log-in {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    cursor: pointer;
+}
+h1{
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    width: 513px;
+    height: 122px;
+    margin-bottom: 10px;
+}
+h2{
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+    width: 448px;
+    height: 71px;
+    text-transform: capitalize;
+}
+p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;    
+    margin-bottom: 60px;
+    margin-top: 36px;
+}
+.explore{
+    background: #ADFF00;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px);
+    
+}@media screen and (max-width:800px) {
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    .descricao {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        text-align: center;
+        width: 263px;
+        height: 52px;
+        margin: 24px 63px 0 64px;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        width: 232px;
+        height: 37px;
+        margin: 7px 79px 17px 79px;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        width: 354px;
+        height: 317px;
+        margin-top: 170px;
+        margin-left: 30px;
+        text-align: center;
+    }
+
+    .explore {
+        display: block;
+        margin: 0 75px;
+    }
+}
