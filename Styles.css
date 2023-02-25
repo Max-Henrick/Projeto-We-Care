@@ -24,7 +24,7 @@ section{
     margin-left: 86px;    
 }
 
-.link-header {
+a {
     color: #989D9C;
     font-size: 24px;
     font-weight: 600;
